@@ -615,6 +615,10 @@ color: #404BBF;
   .modal-field {
     margin-bottom: 8px;
   }
+
+  .modal-field-one {
+    margin-bottom: 16px;
+  }
   
   .modal-label {
     color: var(--LIGHT-SLATE, #8E8F99);
@@ -661,7 +665,6 @@ color: #404BBF;
     height: 120px;
     resize: none;
     border-radius: 4px;
-    border: 1px solid var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
     background-color: transparent;
     outline: transparent;
     padding: 8px 16px;
@@ -672,6 +675,7 @@ color: #404BBF;
     color: rgba(46, 47, 66, 0.4);
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border-color: #4D5AE5;
+    border: 1px solid rgba(46, 47, 66, 0.4)
   }
   
   .visually-hidden {
@@ -720,8 +724,6 @@ color: #404BBF;
     border 250ms cubic-bezier(0.4, 0, 0.2, 1), 
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  
-  .check-icon {}
   
   .input-check-link {
     color: #4d5ae5;
