@@ -475,6 +475,68 @@ color: #404BBF;
     fill: #f4f4fd;
 }
 
+.footer-input {
+    margin-left: 80px;
+  }
+
+  .modal-title-footer {
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+  }
+
+  .subscribe-form {
+    display: flex;
+    gap: 24px;
+  }
+
+  .email-form {
+    display: flex;
+  }
+
+  .email-input {
+    border-radius: 4px;
+    border: 1px solid #fff;
+    width: 264px;
+    height: 40px;
+    background-color: transparent;
+    padding: 8px 0 8px 16px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    color: #fff;
+  }
+
+  .button-subscribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 165px;
+    margin-left: 24px;
+    padding: 8px 24px;
+    text-align: center;
+    color: #fff;
+    background-color: #4d5ae5;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+  }
+
+  .social-icon-input {
+    fill: #ffffff;
+    margin-left: 16px;
+  }
+
 /* modal */
 
 .backdrop {
