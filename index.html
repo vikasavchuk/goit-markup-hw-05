@@ -22,6 +22,7 @@
 
 <body>  
     
+  <!-- Header -->
     <header class="header">
         <div class="container-header container">
             <nav class="menu">
@@ -52,6 +53,8 @@
     </header>
 
     <main>
+
+      <!-- Section one -->
         <section class="section-one">
             <div class="container">
             <h1 class="h-effective">Effective Solutions
@@ -60,6 +63,7 @@
             </div>
         </section>
 
+        <!-- Section two -->
         <section class="section-two">
             <div class="container">
             <h2 class="visually-hidden">#</h2>
@@ -108,6 +112,7 @@
             </div>
         </section>
 
+        <!-- Section three -->
         <section class="section-three">
             <div class="container">
             <h2 class="h-our">Our Team</h2>
@@ -268,6 +273,7 @@
         </div>
         </section>
 
+        <!-- Section four -->
         <section class="section-four">
             <div class="container">
                 <h2 class="h-our">Our Portfolio</h2>
@@ -349,6 +355,7 @@
         </section>
     </main>
 
+    <!-- Footer -->
     <footer class="footer">
         <div class="container conteiner-footer">
             <div class="footer-div">
@@ -390,5 +397,70 @@
             </div>
         </div>
     </footer>  
+
+    <!-- Modal -->
+    <div class="backdrop">
+      <div class="modal">
+        <button class="modal-close-btn">
+          <svg class="modal-close-icon" width="8" height="8">
+            <use href=""></use>
+          </svg>
+        </button>
+        <p class="modal-title">Leave your contacts and we will call you back</p>
+        <form class="modal-form">
+          <div class="modal-field">
+            <label for="user-name" class="modal-label">Name</label>
+            <div class="modal-input-wrap">
+              <input
+                id="user-name"
+                name="user-name"
+                type="text"
+                class="modal-input"
+              />
+              <svg class="modal-icon" width="18" height="24">
+                <use href=""></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-field">
+            <label for="user-tel" class="modal-label">Phone</label>
+            <div class="modal-input-wrap">
+              <input
+                id="user-tel"
+                name="user-tel"
+                type="tel"
+                class="modal-input"
+              />
+              <svg class="modal-icon" width="18" height="24">
+                <use href=""></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-field">
+            <label for="user-email" class="modal-label">Email</label>
+            <div class="modal-input-wrap">
+              <input
+                id="user-email"
+                name="user-email"
+                type="email"
+                class="modal-input"
+              />
+              <svg class="modal-icon" width="18" height="24">
+                <use href=""></use>
+              </svg>
+            </div>
+            <div class="modal-field">
+              <label for="user-comment" class="modal-label">Comment</label
+              ><textarea
+                name="user-comment"
+                id="user-comment"
+                class="modal-textarea"
+                placeholder="Text input"
+              ></textarea>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
 </body>
 </html>
