@@ -677,6 +677,11 @@ color: #404BBF;
     border-color: #4D5AE5;
     border: 1px solid rgba(46, 47, 66, 0.4)
   }
+
+  .modal-textarea:hover,
+  .modal-textarea:focus {
+    border-color: #4D5AE5;
+  }
   
   .visually-hidden {
     position: absolute;
